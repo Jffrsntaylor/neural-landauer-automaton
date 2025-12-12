@@ -5,7 +5,7 @@
 Simulates a Landauer-inspired vacuum that quenches from noisy chaos into a Fibonacci-like ordered phase while primordial black holes (PBHs) melt local domain walls.
 
 ## Emergence & Results
-![Entropy trajectory](assets/entropy_history.png)
+![Entropy trajectory](entropy_history.png)
 
 The vertical drop in loss represents the **Quench**—a rapid phase transition from high-entropy chaos to a stable Fibonacci ground state. After the drop, the automaton holds the ordered texture while respecting PBH-induced disorder.
 
