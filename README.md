@@ -16,12 +16,14 @@ The vertical drop in loss represents the **Quench**—a rapid phase transition f
 - **PBHs**: Clamped -1.0 pixels act as high-entropy defects; surrounding domain walls “melt.”
 
 ## Project Layout
-- `model.py` — NCA core with toroidal perception and PBH masking.
-- `train.py` — Training loop, entropy plot export (entropy_history.png), checkpoints in `checkpoints/`.
-- `simulate.py` — PBH experiment and GIF export (simulation_output.gif).
-- `assets/` — Curated outputs kept under version control.
-- `requirements.txt` — Pinned JAX/Flax/Optax stack.
-- `LICENSE` — MIT.
+
+- **`model.py`** — The physics core. Implements the NCA with toroidal topology and PBH masking logic.
+- **`train.py`** — The training loop. Optimizes the phase transition and exports scientific proofs (`entropy_history.png`).
+- **`simulate.py`** — The experiment runner. Injects black holes and renders the visual simulation (`simulation_output.gif`).
+- **`os_config.py`** — Hardware config. Automatically handles JAX device selection (CUDA vs CPU) for Windows compatibility.
+- **`assets/`** — Storage for curated visual outputs and plots.
+- **`requirements.txt`** — Pinned dependencies for the JAX/Flax/Optax physics stack.
+- **`LICENSE`** — MIT License.
 
 ## Quick Start
 1) Environment
