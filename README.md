@@ -17,8 +17,8 @@ The vertical drop in loss represents the **Quench**—a rapid phase transition f
 
 ## Project Layout
 - `model.py` — NCA core with toroidal perception and PBH masking.
-- `train.py` — Training loop, entropy plot export (`entropy_history.png`), checkpoints in `checkpoints/`.
-- `simulate.py` — PBH experiment and GIF export (`simulation_output.gif`).
+- `train.py` — Training loop, entropy plot export (entropy_history.png), checkpoints in `checkpoints/`.
+- `simulate.py` — PBH experiment and GIF export (simulation_output.gif).
 - `assets/` — Curated outputs kept under version control.
 - `requirements.txt` — Pinned JAX/Flax/Optax stack.
 - `LICENSE` — MIT.
