@@ -6,6 +6,7 @@ Simulates a Landauer-inspired vacuum that quenches from noisy chaos into a Fibon
 
 ## Emergence & Results
 ![Entropy trajectory](entropy_history.png)
+![Simulation](simulation_output.gif)
 
 The vertical drop in loss represents the **Quench**—a rapid phase transition from high-entropy chaos to a stable Fibonacci ground state. After the drop, the automaton holds the ordered texture while respecting PBH-induced disorder.
 
